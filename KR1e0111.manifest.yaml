@@ -1,0 +1,74 @@
+canonical_identifier: bkk:krp/KR1e0111/v1
+canonical_location: https://kanripo.org/bkk/KR1e0111/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 春秋世族譜
+  date: '2015-08-24 22:17:26.177164'
+  source:
+    repository: kanripo
+    path: KR1e0111
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR1e0111_000.yaml, hash: 'sha256:dd391c100efce3c1312a081d505f94b5f7eca6ab838e6c322afc8122e0326736'}
+  - {seq: 1, filename: KR1e0111_001.yaml, hash: 'sha256:37f68285a91e572a416f82c79cadddc6285c12062b03a8936914d9d1a17d7cc9'}
+  - {seq: 2, filename: KR1e0111_002.yaml, hash: 'sha256:73643825a0116ba2eddecedd671673d6abea69d90416874d5e29d9ab381e4be8'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1e0111_000.markers.yaml, hash: 'sha256:9d9f6298a29af4876fb06c69f32866a89cb5ddcbabc242d605b6290abd87ddcc'}
+  - {seq: 1, role: markers, filename: assets/KR1e0111_001.markers.yaml, hash: 'sha256:0511d470c6f6bfc24c20f71e674df7b3cae8baf52873b372f7215fb1b1860c7c'}
+  - {seq: 2, role: markers, filename: assets/KR1e0111_002.markers.yaml, hash: 'sha256:a18e1759425c4ed2c56363371dbb795ccd9653153d65ea2f3b0ed73436f1b9d2'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1e0111_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 526
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR1e0111_WYG_000-4a
+    span:
+    - body
+    - 526
+    - 831
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1e0111_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 4230
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR1e0111_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 3576
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:d180d911f18ac45f8056b32e0ed40728133c94e6a740c53c534d91190129fddb
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

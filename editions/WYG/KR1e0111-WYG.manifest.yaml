@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR1e0111/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR1e0111/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 春秋世族譜
+  date: '2015-08-24 22:17:26.177164'
+  source:
+    repository: kanripo
+    path: KR1e0111
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR1e0111_000-WYG.yaml, hash: 'sha256:c306a335da573170bcd12dfeb651519e5874b3d02586dd7fb9bd32330681093c'}
+  - {seq: 1, filename: KR1e0111_001-WYG.yaml, hash: 'sha256:1aeda7b3f7904ab3e7294d637038b058d409508a13b9a62dc6f9ad66b3abcd88'}
+  - {seq: 2, filename: KR1e0111_002-WYG.yaml, hash: 'sha256:c552eaa858a57737c66b8862afbb9d6f798ffa90b909658aab6f4468bba90bac'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR1e0111_000-WYG.markers.yaml, hash: 'sha256:3ec95716e82e712561071b5570e033fb9eb5f92eb0af1c8729c47a534966a329'}
+  - {seq: 1, role: markers, filename: assets/KR1e0111_001-WYG.markers.yaml, hash: 'sha256:1a1d788ce24ff3583766497a6ca2667f0272349b2aa61c1ab48603815d75174c'}
+  - {seq: 2, role: markers, filename: assets/KR1e0111_002-WYG.markers.yaml, hash: 'sha256:8598276f35b1fa748972892df93790bea4158a6d9bd6e89d2e10a3cf8b1eb28d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR1e0111_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 831
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR1e0111_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 4230
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR1e0111_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 3576
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:a8e2f5e5457606c7a8189b1185df7f872e5a12a32e1bf50c4aa7f6686bba169f
